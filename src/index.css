@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  li {
+    @apply p-4;
+  }
+  button {
+    @apply text-white border bg-cyan-500 border-cyan-500 transition-all duration-500
+    hover:bg-transparent hover:text-cyan-500 rounded-md;
+  }
+}
