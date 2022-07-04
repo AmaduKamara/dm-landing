@@ -6,4 +6,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - React
 - TailwindCSS
+- React-Icons
+- Heroicons
+- React Scroll
+
+## App Screenshots
+
+### Mobile View
+
+![image](https://user-images.githubusercontent.com/50941074/177225700-3146f41b-c735-41db-8bc8-17f583cc26f3.png)
+
+### Desktop View
+
+![image](https://user-images.githubusercontent.com/50941074/177225730-6be4b243-7e7f-4216-ab66-7623f78cafb0.png)
 
