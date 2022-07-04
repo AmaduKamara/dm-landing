@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
@@ -14,9 +14,11 @@ const Navbar = () => {
     <header className="w-screen h-[60px] z-10 bg-white fixed drop-shadow-lg pb-12">
       <div className="px-4 flex justify-between items-center w-full container mx-auto">
         <div className="flex items-center justify-between w-full">
-          <h1 className="text-3xl font-semibold sm:text-4xl">
-            data<span className="text-4xl text-cyan-500">.</span>
-          </h1>
+          <Link to="home" smooth={true} duration={500}>
+            <h1 className="text-3xl font-semibold sm:text-4xl cursor-pointer">
+              data<span className="text-4xl text-cyan-500">.</span>
+            </h1>
+          </Link>
           <nav>
             <ul className="hidden md:flex">
               <li className="cursor-pointer">
