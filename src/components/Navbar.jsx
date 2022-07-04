@@ -8,6 +8,8 @@ const Navbar = () => {
 
   const handleNaveOpen = () => setNav(!nav);
 
+  const handleClose = () => setNav(!nav);
+
   return (
     <header className="w-screen h-[60px] z-10 bg-white fixed drop-shadow-lg pb-12">
       <div className="px-4 flex justify-between items-center w-full container mx-auto">
@@ -71,16 +73,66 @@ const Navbar = () => {
               : "absolute bg-gray-100 w-full px-8 pb-12 mt-6 transition-all duration-500 ease-in"
           }
         >
-          <li className="border-b-2 border-zinc-300 w-full">Home</li>
-          <li className="border-b-2 border-zinc-300 w-full">About</li>
-          <li className="border-b-2 border-zinc-300 w-full">Support</li>
-          <li className="border-b-2 border-zinc-300 w-full">Platforms</li>
-          <li className="border-b-2 border-zinc-300 w-full">Pricing</li>
+          <li className="border-b-2 border-zinc-300 w-full cursor-pointer">
+            <Link to="home" smooth={true} duration={500} onClick={handleClose}>
+              Home
+            </Link>
+          </li>
+          <li className="border-b-2 border-zinc-300 w-full cursor-pointer">
+            <Link
+              to="about"
+              smooth={true}
+              offset={-180}
+              duration={500}
+              onClick={handleClose}
+            >
+              About
+            </Link>
+          </li>
+          <li className="border-b-2 border-zinc-300 w-full cursor-pointer">
+            <Link
+              to="support"
+              smooth={true}
+              offset={-50}
+              duration={500}
+              onClick={handleClose}
+            >
+              Support
+            </Link>
+          </li>
+          <li className="border-b-2 border-zinc-300 w-full cursor-pointer">
+            <Link
+              to="platform"
+              smooth={true}
+              offset={-140}
+              duration={500}
+              onClick={handleClose}
+            >
+              Platforms
+            </Link>
+          </li>
+          <li className="border-b-2 border-zinc-300 w-full cursor-pointer">
+            <Link
+              to="pricing"
+              smooth={true}
+              offset={-60}
+              duration={500}
+              onClick={handleClose}
+            >
+              Pricing
+            </Link>
+          </li>
           <li className="flex flex-col my-4 px-0">
-            <button className="bg-transparent text-gray-800 px-8 py-3 mb-4">
+            <button
+              className="bg-transparent text-gray-800 px-8 py-3 mb-4"
+              onClick={handleClose}
+            >
               Sign In
             </button>
-            <button className="px-8 py-3 transition-all duration-500">
+            <button
+              className="px-8 py-3 transition-all duration-500"
+              onClick={handleClose}
+            >
               Sign Up
             </button>
           </li>
