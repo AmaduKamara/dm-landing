@@ -20,7 +20,7 @@ const Supports = () => {
           <h3 className="text-5xl font-bold py-6 text-center">
             Finding the right team
           </h3>
-          <p className="text-2xl py-4 text-slate-300">
+          <p className="text-2xl py-4 text-slate-300 text-center px-2">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
             accusamus quas quis perspiciatis vero quisquam, expedita hic ex
             dicta vitae impedit nam repellendus, nisi tenetur magnam eligendi at

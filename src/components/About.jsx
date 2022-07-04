@@ -5,10 +5,10 @@ const About = () => {
     <section className="w-full my-32">
       <div className="container mx-auto max-w-[1240px]">
         <div className="text-center">
-          <h2 className="text-5xl font-bold">
+          <h2 className="text-5xl font-bold px-2">
             Trusted by developers across the world
           </h2>
-          <p className="text-2xl py-6 text-gray-500">
+          <p className="text-2xl py-6 text-gray-500 px-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
             similique! Debitis pariatur delectus, temporibus laboriosam
             voluptates praesentium veniam autem ad!

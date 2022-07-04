@@ -32,7 +32,7 @@ const Navbar = () => {
             </button>
           </div>
         </div>
-        <div className="md:hidden mt-1 mr-4" onClick={handleNaveOpen}>
+        <div className="md:hidden mt-1 mr-2" onClick={handleNaveOpen}>
           {!nav ? (
             <MenuIcon className="w-5 cursor-pointer text-cyan-500" />
           ) : (

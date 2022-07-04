@@ -3,6 +3,7 @@ import AllInOne from "./components/AllInOne";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Supports from "./components/Supports";
+import Pricing from './components/Pricing';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Supports />
       <AllInOne />
+      <Pricing />
     </div>
   );
 }
