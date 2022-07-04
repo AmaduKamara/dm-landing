@@ -20,3 +20,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![image](https://user-images.githubusercontent.com/50941074/177225730-6be4b243-7e7f-4216-ab66-7623f78cafb0.png)
 
+
+## Acknowledgment
+
+I give credit to [Code Commerce](https://www.youtube.com/channel/UCmT9TwcIb_yAe7-Uqhn3fBA) Youtube Channel for the original work and tuition.
