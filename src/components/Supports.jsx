@@ -6,7 +6,7 @@ import supportBgImage from "../images/staff.jpg";
 
 const Supports = () => {
   return (
-    <section className="w-full h-screen mt-24">
+    <section className="w-full mt-24">
       <div className="w-full h-[700px] bg-gray-900/90 absolute">
         <img
           src={supportBgImage}
