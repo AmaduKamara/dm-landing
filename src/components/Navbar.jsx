@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
@@ -16,11 +17,31 @@ const Navbar = () => {
           </h1>
           <nav>
             <ul className="hidden md:flex">
-              <li>Home</li>
-              <li>About</li>
-              <li>Support</li>
-              <li>Platforms</li>
-              <li>Pricing</li>
+              <li className="cursor-pointer">
+                <Link to="home" smooth={true} duration={500}>
+                  Home
+                </Link>
+              </li>
+              <li className="cursor-pointer">
+                <Link to="about" smooth={true} offset={-180} duration={500}>
+                  About
+                </Link>
+              </li>
+              <li className="cursor-pointer">
+                <Link to="support" smooth={true} offset={-50} duration={500}>
+                  Support
+                </Link>
+              </li>
+              <li className="cursor-pointer">
+                <Link to="platform" smooth={true} offset={-140} duration={500}>
+                  Platforms
+                </Link>
+              </li>
+              <li className="cursor-pointer">
+                <Link to="pricing" smooth={true} offset={-60} duration={500}>
+                  Pricing
+                </Link>
+              </li>
             </ul>
           </nav>
           <div className="hidden md:flex pr-4">

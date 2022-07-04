@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="w-full my-32">
+    <section name="about" className="w-full my-32">
       <div className="container mx-auto max-w-[1240px]">
         <div className="text-center">
           <h2 className="text-5xl font-bold px-2">
@@ -16,15 +16,21 @@ const About = () => {
         </div>
         <div className="grid md:grid-cols-3 gap-6 px-4 text-center">
           <div className="border py-8 rounded-xl shadow-xl">
-            <h3 className="text-5xl md:text-7xl font-bold text-cyan-500">100%</h3>
+            <h3 className="text-5xl md:text-7xl font-bold text-cyan-500">
+              100%
+            </h3>
             <p className="text-gray-400 mt-3">Completed</p>
           </div>
           <div className="border py-8 rounded-xl shadow-xl">
-            <h3 className="text-5xl md:text-7xl font-bold text-cyan-500">24/7</h3>
+            <h3 className="text-5xl md:text-7xl font-bold text-cyan-500">
+              24/7
+            </h3>
             <p className="text-gray-400 mt-3">Delivery</p>
           </div>
           <div className="border py-8 rounded-xl shadow-xl">
-            <h3 className="text-5xl md:text-7xl font-bold text-cyan-500">100K</h3>
+            <h3 className="text-5xl md:text-7xl font-bold text-cyan-500">
+              100K
+            </h3>
             <p className="text-gray-400 mt-3">Transactions</p>
           </div>
         </div>
