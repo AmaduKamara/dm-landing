@@ -32,11 +32,11 @@ const Navbar = () => {
             </button>
           </div>
         </div>
-        <div className="md:hidden mt-1" onClick={handleNaveOpen}>
+        <div className="md:hidden mt-1 mr-4" onClick={handleNaveOpen}>
           {!nav ? (
-            <MenuIcon className="w-5 cursor-pointer" />
+            <MenuIcon className="w-5 cursor-pointer text-cyan-500" />
           ) : (
-            <XIcon className="w-5 cursor-pointer" />
+            <XIcon className="w-5 cursor-pointer text-cyan-500" />
           )}
         </div>
       </div>
