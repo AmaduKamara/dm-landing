@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Live Demo
+You can access the [LiveDemo](https://cloud-data-management.netlify.app/)
+
 ## Built WWith
 
 - React
@@ -9,6 +12,22 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - React-Icons
 - Heroicons
 - React Scroll
+
+## Gettting Started
+
+- Run `https://github.com/AmaduKamara/dm-landing.git`
+- Run `cd dm-landing`
+- Run `yarn` or `npm install`
+- Run `yarn start` or `npm start` to start up the development server 👍 
+
+## Author
+
+👤 **Amadu Kamara**
+
+- [GitHub](https://github.com/AmaduKamara)
+- [Twitter](https://twitter.com/DevAmkam)
+- [LinkedIn](https://www.linkedin.com/in/amadu-kamara-3b60a25b)
+- [Facebook](https://www.facebook.com/amadus.kamara.7)
 
 ## App Screenshots
 
