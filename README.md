@@ -57,4 +57,4 @@ I give credit to [Code Commerce](https://www.youtube.com/channel/UCmT9TwcIb_yAe7
 
 ## 📝 License
 
-[MIT licensed](https://github.com/AmaduKamara/dm-landing/blob/dev/LICENSE).
+[MIT licensed](#).
