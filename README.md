@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Live Demo
-You can access the [LiveDemo](https://cloud-data-management.netlify.app/)
+Here is the link to the [LiveDemo](https://cloud-data-management.netlify.app/)
 
 ## Built WWith
 
