@@ -40,6 +40,21 @@ You can access the [LiveDemo](https://cloud-data-management.netlify.app/)
 ![image](https://user-images.githubusercontent.com/50941074/177225730-6be4b243-7e7f-4216-ab66-7623f78cafb0.png)
 
 
-## Acknowledgment
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/AmaduKamara/dm-landing/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
 
 I give credit to [Code Commerce](https://www.youtube.com/channel/UCmT9TwcIb_yAe7-Uqhn3fBA) Youtube Channel for the original work and tuition.
+
+
+## 📝 License
+
+[MIT licensed](https://github.com/AmaduKamara/dm-landing/blob/dev/LICENSE).
